@@ -10,6 +10,7 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Component Tracker</label>
     <navType>Standard</navType>
+    <tabs>Project__c</tabs>
     <tabs>Sprint__c</tabs>
     <tabs>User_Story__c</tabs>
     <tabs>Tracked_Component__c</tabs>

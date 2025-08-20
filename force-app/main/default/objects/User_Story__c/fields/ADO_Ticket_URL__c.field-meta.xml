@@ -6,6 +6,6 @@
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Text</type>
-    <formula>IF(ISBLANK(ADO_Ticket_Number__c), null, HYPERLINK($Label.ADO_Base_URL &amp; ADO_Ticket_Number__c, ADO_Ticket_Number__c, &quot;_blank&quot;))</formula>
+    <formula>IF(ISBLANK(ADO_Ticket_Number__c), null, HYPERLINK(Sprint__r.Project__r.ADO_Base_URL__c &amp; ADO_Ticket_Number__c, ADO_Ticket_Number__c, &quot;_blank&quot;))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
 </CustomField>

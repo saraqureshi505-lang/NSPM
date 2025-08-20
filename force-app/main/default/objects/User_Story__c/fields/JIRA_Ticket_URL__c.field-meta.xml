@@ -6,6 +6,6 @@
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Text</type>
-    <formula>IF(ISBLANK(JIRA_Ticket_Number__c), null, HYPERLINK($Label.JIRA_Base_URL &amp; JIRA_Ticket_Number__c, JIRA_Ticket_Number__c, &quot;_blank&quot;))</formula>
+    <formula>IF(ISBLANK(JIRA_Ticket_Number__c), null, HYPERLINK(Sprint__r.Project__r.JIRA_Base_URL__c &amp; JIRA_Ticket_Number__c, JIRA_Ticket_Number__c, &quot;_blank&quot;))</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
 </CustomField>
