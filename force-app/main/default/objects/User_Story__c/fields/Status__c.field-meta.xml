@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Developing</fullName>
+                <default>true</default>
+                <label>Developing</label>
+            </value>
+            <value>
+                <fullName>Ready For DMPT</fullName>
+                <default>false</default>
+                <label>Ready For DMPT</label>
+            </value>
+            <value>
+                <fullName>DMPT Deployed</fullName>
+                <default>false</default>
+                <label>DMPT Deployed</label>
+            </value>
+            <value>
+                <fullName>Ready For Stage</fullName>
+                <default>false</default>
+                <label>Ready For Stage</label>
+            </value>
+            <value>
+                <fullName>Stage Deployed</fullName>
+                <default>false</default>
+                <label>Stage Deployed</label>
+            </value>
+            <value>
+                <fullName>Ready for Production</fullName>
+                <default>false</default>
+                <label>Ready for Production</label>
+            </value>
+            <value>
+                <fullName>Production Deployed</fullName>
+                <default>false</default>
+                <label>Production Deployed</label>
+            </value>
+            <value>
+                <fullName>Done</fullName>
+                <default>false</default>
+                <label>Done</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
