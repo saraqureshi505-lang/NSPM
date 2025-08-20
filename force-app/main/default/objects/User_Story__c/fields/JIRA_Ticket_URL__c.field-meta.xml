@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>JIRA_Ticket_URL__c</fullName>
+    <label>JIRA Ticket URL</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <formula>IF(ISBLANK(JIRA_Ticket_Number__c), null, HYPERLINK($Label.JIRA_Base_URL &amp; JIRA_Ticket_Number__c, JIRA_Ticket_Number__c, &quot;_blank&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+</CustomField>
