@@ -3,12 +3,11 @@
     <fullName>User_Story__c</fullName>
     <label>User Story</label>
     <referenceTo>User_Story__c</referenceTo>
-    <relationshipLabel>Tracked Components</relationshipLabel>
-    <relationshipName>Tracked_Components</relationshipName>
+    <relationshipLabel>User Story Components</relationshipLabel>
+    <relationshipName>User_Story_Components</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
     <writeRequiresMasterRead>false</writeRequiresMasterRead>
-    <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>MasterDetail</type>
 </CustomField>

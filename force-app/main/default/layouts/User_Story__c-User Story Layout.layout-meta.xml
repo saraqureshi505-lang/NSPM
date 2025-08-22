@@ -82,10 +82,10 @@
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
     <relatedLists>
-        <fields>NAME</fields>
-        <fields>Component_Type__c</fields>
+        <fields>Component__c</fields>
         <fields>Status__c</fields>
-        <relatedList>Tracked_Component__c.User_Story__c</relatedList>
+        <fields>NAME</fields>
+        <relatedList>User_Story_Component__c.User_Story__c</relatedList>
     </relatedLists>
     <relatedLists>
         <relatedList>RelatedNoteList</relatedList>
